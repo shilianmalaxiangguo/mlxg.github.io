@@ -224,6 +224,7 @@
 
 
 
+             <div id="aplayer"></div>
           </div>
           
 
@@ -374,5 +375,24 @@
 
   
 
+
+      <!-- 音频播放 -->
+<link rel="stylesheet" href="/dist/APlayer.min.css">
+<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script>
+<script>
+// my script
+  // 判断用户是不是离开当前页面
+ document.addEventListener('visibilitychange',function(e){
+            var state = document.visibilityState
+            if(state == 'hidden'){
+                document.title = '但问君故😯'
+            }
+            if(state == 'visible'){
+                document.title = '小锤夫斯基😯'
+            }
+        });
+
+</script>
 </body>
 </html>
