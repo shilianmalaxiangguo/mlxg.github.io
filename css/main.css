@@ -402,7 +402,7 @@ code {
   word-wrap: break-word;
 }
 .highlight *::selection {
-  background: #d6d6d6;
+  background: #a3cdfe;
 }
 .highlight pre {
   border: 0;
@@ -441,7 +441,7 @@ code {
 }
 .highlight .gutter pre {
   background: #eff2f3;
-  color: #869194;
+  color: #4d4d4c;
   padding-left: 10px;
   padding-right: 10px;
   text-align: right;
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffd5df;
+  background: #d09450;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1258,11 +1258,11 @@ pre .javascript .function {
   color: #f5f5f5;
 }
 .sidebar-nav .sidebar-nav-active {
-  border-bottom-color: #87daff;
-  color: #87daff;
+  border-bottom-color: #ffeb87;
+  color: #ffeb87;
 }
 .sidebar-nav .sidebar-nav-active:hover {
-  color: #87daff;
+  color: #ffeb87;
 }
 .sidebar-panel {
   display: none;
@@ -1291,7 +1291,7 @@ pre .javascript .function {
   }
 }
 .sidebar-toggle:hover .toggle-line {
-  background: #87daff;
+  background: #ffeb87;
 }
 .post-toc {
   font-size: 0.875em;
@@ -1330,14 +1330,14 @@ pre .javascript .function {
   display: block;
 }
 .post-toc .nav .active > a {
-  border-bottom-color: #87daff;
-  color: #87daff;
+  border-bottom-color: #ffeb87;
+  color: #ffeb87;
 }
 .post-toc .nav .active-current > a {
-  color: #87daff;
+  color: #ffeb87;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #87daff;
+  color: #ffeb87;
 }
 .site-state {
   display: flex;
@@ -1500,7 +1500,7 @@ pre .javascript .function {
   display: none;
 }
 .back-to-top:hover {
-  color: #87daff;
+  color: #ffeb87;
 }
 .back-to-top.back-to-top-on {
   bottom: 19px;
